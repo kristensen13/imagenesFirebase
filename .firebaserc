@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fir-fotos-af4c2": {
+      "hosting": {
+        "fotosfirebase": [
+          "fir-fotos-af4c2"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fir-fotos-af4c2"
+  }
+}

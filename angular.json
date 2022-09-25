@@ -98,6 +98,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "fotosfirebase:build:production",
+            "firebaseProject": "fir-fotos-af4c2",
+            "firebaseHostingSite": "fir-fotos-af4c2"
+          }
         }
       }
     }
